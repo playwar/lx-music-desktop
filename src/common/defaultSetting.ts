@@ -24,13 +24,15 @@ const defaultSetting: LX.AppSetting = {
 
   'player.startupAutoPlay': false,
   'player.togglePlayMethod': 'listLoop',
-  'player.highQuality': false,
+  'player.playQuality': '128k',
   'player.isShowTaskProgess': true,
+  'player.isShowStatusBarLyric': false,
   'player.volume': 1,
   'player.powerSaveBlocker': true,
   'player.isMute': false,
   'player.playbackRate': 1,
   'player.preservesPitch': true,
+  'player.isMaxOutputChannelCount': false,
   'player.mediaDeviceId': 'default',
   'player.isMediaDeviceRemovedStopPlay': false,
   'player.isShowLyricTranslation': false,
@@ -65,6 +67,7 @@ const defaultSetting: LX.AppSetting = {
   'playDetail.isShowLyricProgressSetting': false,
   'playDetail.style.fontSize': 140,
   'playDetail.style.align': 'center',
+  'playDetail.isDelayScroll': true,
 
   'desktopLyric.enable': false,
   'desktopLyric.isLock': false,
@@ -104,6 +107,7 @@ const defaultSetting: LX.AppSetting = {
   'list.actionButtonsVisible': false,
 
   'download.enable': false,
+  'download.isSavePathGroupByListName': false,
   'download.savePath': path.join(os.homedir(), 'Desktop'),
   'download.fileName': '歌名 - 歌手',
   'download.maxDownloadNum': 3,
